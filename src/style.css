@@ -1,3 +1,78 @@
-body {
-  background-color: rgb(251, 110, 9);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  padding: 2rem;
+}
+
+.leaderboard-wrapper {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: auto;
+}
+
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 5rem;
+  align-items: center;
+}
+
+.recent-scores {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.recent-scores button {
+  align-items: flex-end;
+}
+
+.scores {
+  border: 2px solid #000;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1 1 5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+form input {
+  border: 2px solid #000;
+  padding: 0.2rem;
+}
+
+form button {
+  background-color: transparent;
+  border: 2px solid #000;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
 }
