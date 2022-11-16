@@ -40,6 +40,13 @@ ul {
   padding: 1rem;
 }
 
+form button {
+  background-color: transparent;
+  border: 2px solid #000;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+}
+
 .recent-scores button {
   align-items: flex-end;
 }
@@ -68,11 +75,4 @@ form {
 form input {
   border: 2px solid #000;
   padding: 0.2rem;
-}
-
-form button {
-  background-color: transparent;
-  border: 2px solid #000;
-  padding: 0.2rem 1rem;
-  cursor: pointer;
 }

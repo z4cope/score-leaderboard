@@ -1,4 +1,4 @@
-import "./style.css";
-import MarkupGenerator from "./modules/markupGenerator";
+import './style.css';
+import MarkupGenerator from './modules/markupGenerator.js';
 
 MarkupGenerator.generator();
