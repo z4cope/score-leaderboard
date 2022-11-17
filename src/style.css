@@ -14,12 +14,13 @@ ul {
 }
 
 .header {
+  font-size: 3rem;
   padding: 2rem;
 }
 
 .leaderboard-wrapper {
   width: 90%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
